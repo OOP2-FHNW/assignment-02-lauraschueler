@@ -117,6 +117,7 @@ class TransactionListTest {
         assertEquals(2, map.get(2011).size());
         assertEquals(4, map.get(2012).size());
     }
+
 	@Test
 	void testTraderInCity() {
 		assertTrue(transactionList.traderInCity("Brugg"));
